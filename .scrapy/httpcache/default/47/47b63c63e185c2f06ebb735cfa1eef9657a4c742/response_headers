@@ -1,0 +1,26 @@
+X-Client-Ip: 189.196.199.53
+X-Cache-Status: hit
+X-Powered-By: HHVM/3.18.2
+X-Site: wikipedia
+Last-Modified: Mon, 03 Oct 2016 14:26:14 GMT
+X-Language: es
+Date: Sat, 08 Jul 2017 02:40:53 GMT
+Age: 1953
+X-Varnish: 923939825 928782672, 919131355 922386488, 203355299
+X-Cache: cp1065 hit/3, cp2001 hit/8, cp2023 miss
+Set-Cookie: WMF-Last-Access=08-Jul-2017;Path=/;HttpOnly;secure;Expires=Wed, 09 Aug 2017 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=08-Jul-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed, 09 Aug 2017 00:00:00 GMT
+Set-Cookie: GeoIP=MX:PUE:Puebla_City:19.02:-98.19:v4; Path=/; secure; Domain=.wikipedia.org
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Server: mw1185.eqiad.wmnet
+X-Article-Id: 2000281
+P3P: CP="This is not a P3P policy! See https://es.wikipedia.org/wiki/Especial:CentralAutoLogin/P3P for more info."
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+X-Analytics: https=1;nocookies=1
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Vary: X-Subdomain, Accept-Encoding
+Cache-Control: s-maxage=3600, must-revalidate, max-age=0
+Content-Type: text/plain; charset=utf-8
+Backend-Timing: D=32138 t=1499371188003658

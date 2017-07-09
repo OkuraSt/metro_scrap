@@ -1,0 +1,6 @@
+Accept-Language: en
+Accept-Encoding: gzip,deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Scrapy/1.4.0 (+http://scrapy.org)
+Cookie: WMF-Last-Access=02-Jul-2017; WMF-Last-Access-Global=02-Jul-2017; GeoIP=MX:PUE:Puebla_City:19.02:-98.19:v4
+Referer: https://es.wikipedia.org/wiki/L%C3%ADnea_12_del_Metro_de_la_Ciudad_de_M%C3%A9xico

@@ -1,0 +1,23 @@
+X-Client-Ip: 189.196.199.53
+X-Cache-Status: hit
+X-Powered-By: HHVM/3.18.2
+Last-Modified: Sat, 01 Jul 2017 02:15:23 GMT
+X-Ua-Compatible: IE=Edge
+Content-Language: es
+Link: </static/images/project-logos/eswiki.png>;rel=preload;as=image;media=not all and (min-resolution: 1.5dppx),</static/images/project-logos/eswiki-1.5x.png>;rel=preload;as=image;media=(min-resolution: 1.5dppx) and (max-resolution: 1.999999dppx),</static/images/project-logos/eswiki-2x.png>;rel=preload;as=image;media=(min-resolution: 2dppx)
+Date: Sun, 02 Jul 2017 00:53:04 GMT
+Accept-Ranges: bytes
+X-Varnish: 79304607, 363186473 54608494, 870115075
+X-Cache: cp1055 miss, cp2010 hit/8, cp2023 miss
+Age: 77815
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Server: mw1275.eqiad.wmnet
+P3P: CP="This is not a P3P policy! See https://es.wikipedia.org/wiki/Especial:CentralAutoLogin/P3P for more info."
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+X-Analytics: ns=0;page_id=548775;WMF-Last-Access=02-Jul-2017;WMF-Last-Access-Global=02-Jul-2017;https=1
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Vary: Accept-Encoding,Cookie,Authorization
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Backend-Timing: D=83552 t=1498878969043985
