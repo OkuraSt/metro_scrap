@@ -4,3 +4,5 @@
 /json
 /.scrapy
 metro_scrap/__pycache__/
+metro_scrap/items/__pycache__/
+metro_scrap/spiders/__pycache__/
