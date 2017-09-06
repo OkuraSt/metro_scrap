@@ -3,3 +3,4 @@
 /.idea
 /json
 /.scrapy
+metro_scrap/__pycache__/
