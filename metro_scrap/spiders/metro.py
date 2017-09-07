@@ -28,6 +28,7 @@ class MetroSpider(Spider):
 
     def parse_linea(self, response):
         linea_item_loader = ItemLoader(item=Linea(), response=response)
+
         # Informacion de linea
         # ---------------------------
         # clave
@@ -35,7 +36,6 @@ class MetroSpider(Spider):
         # nombre
         # imagen
         # no_estaciones
-
         clave_linea = response.css('#firstHeading::text').extract_first().split(' ')[1]
         url_page = urlparse(response.url).path
         imagen = response.xpath('//*[@id="mw-content-text"]/div/table[1]/tr[2]//img/@src').extract()
@@ -80,13 +80,32 @@ class MetroSpider(Spider):
                 #     yield Request(next_page, callback=self.parse_estation)
 
     def parse_estation(self, response):
-        page = response.url.split('/')
         estacion_item_loader = ItemLoader(item=Estacion(), response=response)
+
+        # Informacion de estacion
+        # ---------------------------
+        # linea
+        # url_page
+        # nombre
+        # latitud_dms
+        # longitud_dms
+        # latitud_dec
+        # longitud_dec
+
+        linea = response.meta['clave_linea']
+        url_page = urlparse(response.url).path
+        nombre = response.xpath('//*[@id="mw-content-text"]/div/table[1]/tr[1]/th/text()').extract()
+
+        estacion_item_loader.add_value('linea', linea)
+        estacion_item_loader.add_value('nombre', nombre)
+        estacion_item_loader.add_value('url_page', url_page)
 
         # informacion de conexiones
         conexiones = response.css('.infobox table')
         conexion = conexiones[0]
 
+        # Informacion general
+        info_general = estacion_item_loader.nested_xpath('//*[@id="mw-content-text"]/div/table[1]')
         # linea
         image = conexion.css('tr')[0].css('td')[3].css('a.image').extract_first()
 
